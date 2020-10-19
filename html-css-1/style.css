@@ -1,34 +1,159 @@
-body{
-    background-color: hotpink;
-    display: flex;
-}
 
-.top-bar{
+    
+    
+
+
+header {
+    background-color: slategray;
     height: 5vh;
-    width: 100%;
-    background-color: grey;
-    box-sizing: border-box;
-    display: flex;
-
-}
-
-.company{
-    font-size: 25pt;
-    display: flex;
-    text-align: center;
-    padding-left: 40px;
-    padding-top: 7px;
     color: white;
+    display: flex;
+    font-size: 20pt;
+    margin: auto;
+    padding-left: 40px;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+    
 }
 
-.words{
-    font-size: 12pt;
+.nav-links {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    padding-right: 40px;
+    list-style: none;
+    font-size: 12pt;
+    font-weight: bolder;
+}
+
+li{
+padding: 15px;
+font-weight: bold;
+}
+
+
+
+.more{
+    box-sizing: border-box;
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+}
+
+h1{
+    font-size: 60px;
+    color: gold;
+    height: 10vh;
+    width: 100%;
+    text-align: center;
+    padding-top: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
-
     
+}
+
+.three-box{
+    width: 100%;
+    height: 30vh;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    box-sizing: border-box;
+    
+}
 
 
+
+.square-1{
+    height: 20vh;
+    width: 20%;
+    display: inline-block;
+    background-color: turquoise;
+    
+    display: flex;
+    border-radius: 5%;
+    
+}
+
+.square-2{
+    height: 20vh;
+    width: 20%;
+    display: inline-block;
+    background-color: turquoise;
+    margin: 0 60px;
+    border-radius: 5%;
+    display: flex;
+    
+}
+
+.square-3{
+    height: 20vh;
+    width: 20%;
+    display: inline-block;
+    background-color: turquoise;
+    border-radius: 5%;
+    display: flex;
+}
+
+
+.oj-boxes{
+    box-sizing: border-box;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+    
+}
+
+.big-block1{
+    height: 20vh;
+    width: 32%;
+    background-color: sandybrown;
+    display: inline-block;
+    display: flex;
+    margin:0 15px;
+    
+    
+}
+
+.big-block2{
+    width: 32%;
+    height: 20vh;
+    background-color: sandybrown;
+    display: inline-block;
+    display: flex;
+    margin: 0 15px;
+
+}
+
+.text-pic{
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.paragraph{
+    display: inline-block;
+    width: 25%;
+    text-align: left;
+    margin: 0 30px;
+    padding: 10px;
+}
+
+.pic{
+    display: inline-block;
+    margin: 0 30px;
+    padding: 10px;
+}
+
+.footer{
+    box-sizing: border-box;
+    width: 100%;
+    background-color: tomato;
+    height: 2vh;
 }
